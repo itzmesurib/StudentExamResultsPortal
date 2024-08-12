@@ -1,0 +1,19 @@
+CREATE TABLE student (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    roll_number VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE result (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    roll_number VARCHAR(255) NOT NULL,
+    subject VARCHAR(255) NOT NULL,
+    marks INT NOT NULL
+);
+
+CREATE TABLE admin (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);

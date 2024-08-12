@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Results</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Manage Results</h1>
+        <nav>
+            <ul>
+                <li><a href="/admin/dashboard">Dashboard</a></li>
+                <li><a href="/admin/upload-results">Upload Results</a></li>
+                <li><a href="/admin/view-performance">View Performance</a></li>
+                <li><a th:href="@{/admin/logout}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Manage Student Results</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Populate with student results -->
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
